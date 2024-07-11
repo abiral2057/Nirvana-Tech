@@ -90,8 +90,8 @@ ul li a , #dropdownNavbarLink{
 
   @media only screen and (max-width: 500px) {
 .grid-container {
-    grid-template-columns: auto auto  ;
-    width: 27vh;
+    grid-template-columns: auto   ;
+   
 
 }
 .grid-container-second {
@@ -109,7 +109,7 @@ ul li a , #dropdownNavbarLink{
 .grid-item {
 padding:10px;
 font-size: 20px;
-width: 25vh;
+
 }
 #container-img{
     height: auto;
@@ -125,12 +125,15 @@ width: 25vh;
     height: auto;
     padding-bottom: 5px;
 }
+.content-main{
+    padding: 2.5rem;
+}
 }
 
 
   @media only screen and (max-width: 900px) {
     .grid-container {
-        grid-template-columns: auto auto  ;
+        grid-template-columns: auto   ;
     
     }
 
