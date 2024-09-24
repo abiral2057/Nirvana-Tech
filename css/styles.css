@@ -3,6 +3,10 @@ body{
     background: linear-gradient(90deg, rgba(255,247,174,1) 0%, rgba(255,170,251,1) 100%);
     color: #1e324e !important;
 }
+#pricing_plan{
+  display:none;
+}
+
 #logo{
     width: 100px;
     height: auto;
